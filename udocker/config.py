@@ -18,7 +18,7 @@ class Config(object):
     """
     conf = {}
     conf['verbose_level'] = 3
-    conf['homedir'] = os.path.expanduser("~") + "/.udocker"
+    conf['homedir'] = os.path.expanduser("~") + "/tmp"
     conf['topdir'] = conf['homedir']
     conf['bindir'] = None
     conf['libdir'] = None
